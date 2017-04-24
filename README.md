@@ -1,4 +1,7 @@
-# test coverage for  [ml-sentiment (v2.0.7)](https://github.com/syzer/sentiment-analyser#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ml-sentiment.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ml-sentiment) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ml-sentiment.svg)](https://travis-ci.org/npmtest/node-npmtest-ml-sentiment)
+# npmtest-ml-sentiment
+
+#### basic test coverage for  [ml-sentiment (v2.0.7)](https://github.com/syzer/sentiment-analyser#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ml-sentiment.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ml-sentiment) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ml-sentiment.svg)](https://travis-ci.org/npmtest/node-npmtest-ml-sentiment)
+
 #### Machine learner sentiment classifier, with ability to negate words, with english and german
 
 [![NPM](https://nodei.co/npm/ml-sentiment.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ml-sentiment)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ml-sentiment/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ml-sentiment/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ml-sentiment/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ml-sentiment/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ml-sentiment/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ml-sentiment/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ml-sentiment/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ml-sentiment/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ml-sentiment/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ml-sentiment/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ml-sentiment/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ml-sentiment/build/coverage.html/index.html)
 
@@ -79,7 +82,8 @@
         "coverage-local": "istanbul cover node_modules/argg test/*.js",
         "test": "tap test/*.js"
     },
-    "version": "2.0.7"
+    "version": "2.0.7",
+    "bin": {}
 }
 ```
 
